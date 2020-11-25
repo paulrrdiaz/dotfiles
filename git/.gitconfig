@@ -1,0 +1,23 @@
+[color "branch"]
+  current = yellow reverse
+  local = yellow
+  remote = green
+
+[color "diff"]
+  meta = yellow bold
+  frag = magenta bold # line info
+  old = red # deletions
+  new = green # additions
+
+[color "status"]
+  added = yellow
+  changed = green
+  untracked = cyan
+
+[user]
+	name = Paul Diaz
+	email = paulrrdiaz@gmail.com
+
+[core]
+  ignorecase = false
+  pager = delta --theme="ansi-dark" --highlight-removed --minus-color="#610316" --plus-color="#003D18"

@@ -1,0 +1,12 @@
+{
+  "name": "dotfiles",
+  "version": "1.0.0",
+  "description": "@paulrrdiaz's dotfiles",
+  "main": "index.js",
+  "scripts": {
+    "vscode": "xargs -L1 code --install-extension < vscode/vscode-extensions.txt"
+  },
+  "keywords": [],
+  "author": "@paulrrdiaz",
+  "license": "ISC"
+}
