@@ -9,7 +9,8 @@ alias chrome="/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --i
 
 # Git
 alias gs="git status"
-alias gcm="git commit -m"
+alias ga="git add ."
+alias gcm="git commit -am"
 alias gl="git log --pretty=oneline -n 20 --graph --abbrev-commit"
 alias gck="!f() { git checkout -b \"$1\" 2> /dev/null || git checkout \"$1\"; }; f"
 alias gps="git push origin"
