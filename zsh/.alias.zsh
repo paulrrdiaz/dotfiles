@@ -2,6 +2,12 @@
 alias reloadzsh="source ~/.zshrc"
 alias editzsh="vim ~/.zshrc"
 alias see="cat ~/.alias.zsh"
+alias h="cd ~"
+alias w="cd ~/Workspace"
+alias ..="cd .."
+alias c="clear"
+alias showssh="cat ~/.ssh/id_rsa.pub"
+alias l="ls -a"
 
 # Browser
 alias firefox="/Applications/Firefox\ Developer\ Edition.app/Contents/MacOS/firefox -private-window"
@@ -34,14 +40,6 @@ alias lzd="lazydocker"
 
 # Brew
 alias brewup="brew update; brew upgrade; brew cleanup; brew doctor"
-
-# Paths
-alias h="cd ~"
-alias w="cd ~/Workspace"
-alias ..="cd .."
-
-# Shortcuts
-alias c="clear"
 
 # Mac
 alias rmds="find . -name '.DS_Store' -type f -print -delete"
