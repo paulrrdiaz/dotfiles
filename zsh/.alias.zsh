@@ -45,7 +45,7 @@ alias lzd="lazydocker"
 # Brew
 alias brewup="brew update; brew upgrade; brew cleanup; brew doctor"
 
-# Mac
+# MacOS
 alias rmds="find . -name '.DS_Store' -type f -print -delete"
 alias showhidden="defaults write com.apple.finder AppleShowAllFiles TRUE && killall Finder"
 alias hidehidden="defaults write com.apple.finder AppleShowAllFiles FALSE && killall Finder"
