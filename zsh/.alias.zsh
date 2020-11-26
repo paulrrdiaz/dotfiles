@@ -18,7 +18,8 @@ alias gs="git status"
 alias ga="git add ."
 alias gcm="git commit -am"
 alias gl="git log --pretty=oneline -n 20 --graph --abbrev-commit"
-alias gck="!f() { git checkout -b \"$1\" 2> /dev/null || git checkout \"$1\"; }; f"
+alias gck="git checkout"
+alias gckb="git checkout -b"
 alias gps="git push origin"
 alias gpl="git pull origin"
 alias gb="git branch -a"
@@ -32,6 +33,9 @@ alias gpurge="!git checkout master && git branch --merged | grep -v '\\*' | xarg
 alias daily=!"git log --reverse --branches --since=$(if [[ "Mon" == "$(date +%a)" ]]; then echo "friday"; else echo "yesterday"; fi) --author=$(git config --get user.email) --format=format:'%C(cyan) %ad %C(yellow)%h %Creset %s %Cgreen%d' --date=local"
 alias glocal="git config --list --local"
 alias gglobal="git config --list --global"
+
+# NPM
+alias npmgh="npm login --scope=@OWNER --registry=https://npm.pkg.github.com"
 
 # Docker
 alias rmc="docker ps -a -q | xargs docker rm"
