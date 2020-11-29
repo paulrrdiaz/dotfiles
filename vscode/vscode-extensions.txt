@@ -19,3 +19,4 @@ bradlc.vscode-tailwindcss
 arcticicestudio.nord-visual-studio-code
 piotrpalarz.vscode-gitignore-generator
 octref.vetur
+andrew-codes.cypress-snippets
