@@ -20,3 +20,5 @@ arcticicestudio.nord-visual-studio-code
 piotrpalarz.vscode-gitignore-generator
 octref.vetur
 andrew-codes.cypress-snippets
+Orta.vscode-jest
+andys8.jest-snippets
