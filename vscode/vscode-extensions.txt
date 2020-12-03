@@ -23,3 +23,4 @@ andrew-codes.cypress-snippets
 Orta.vscode-jest
 andys8.jest-snippets
 alexkrechik.cucumberautocomplete
+IronGeek.vscode-env
