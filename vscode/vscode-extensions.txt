@@ -32,3 +32,4 @@ aaron-bond.better-comments
 herrmannplatz.npm-dependency-links
 axetroy.vscode-npm-import-package-version
 wix.vscode-import-cost
+formulahendry.auto-rename-tag
